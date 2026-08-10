@@ -1,0 +1,94 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOBEt37SeYZb7eXQqoWPpVd",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sraj4563609-alt/Data-analysis/blob/main/lecture%201%20in%20example%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PQKFnNhyxG4V",
+        "outputId": "3da8463b-b5fd-4f75-a955-fa00a1a88ffa"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Name': 'Amit', 'Age': 21, 'Marks': 85}\n",
+            "<class 'dict'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Create a dictionary with student's name, age, and marks\n",
+        "student = {\"Name\": \"Amit\", \"Age\": 21, \"Marks\": 85}\n",
+        "\n",
+        "# Print the dictionary\n",
+        "print(student)\n",
+        "\n",
+        "# Print the type of the dictionary\n",
+        "print(type(student))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create a college dictionary\n",
+        "college = {\n",
+        "    \"name\": \"ABC Institute\",\n",
+        "    \"departments\": [\n",
+        "        {\"name\": \"CSE\", \"students\": 120},\n",
+        "        {\"name\": \"ECE\", \"students\": 90}\n",
+        "    ]\n",
+        "}\n",
+        "\n",
+        "# Print the name of the first department\n",
+        "print(college[\"departments\"][0][\"name\"])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-VxAovuByooT",
+        "outputId": "5e9a9dfd-6add-4657-bcd2-82ba058c045d"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "CSE\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
